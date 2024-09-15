@@ -31,7 +31,14 @@
 
 // even no 0-100
 
-for(let i=0; i<=100;i++){
-    if(i%2==0)
-        console.log(i);
+// for(let i=0; i<=100;i++){
+//     if(i%2==0)
+//         console.log(i);
+// }
+
+let gameNo =25;
+let num= prompt("Guess a number");
+while(num!=gameNo){
+    num= prompt("You entered wrong number. guess a number again");
 }
+alert("Congrats you guessed the right number");
