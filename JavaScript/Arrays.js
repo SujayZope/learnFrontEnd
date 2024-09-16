@@ -32,6 +32,51 @@
 
 //splice
 
-let arr=[1,2,3,4,5,6,7,8,9];
-arr.splice(2,4,11,22,33);
-console.log(arr);
+// let arr=[1,2,3,4,5,6,7,8,9];
+// arr.splice(2,4,11,22,33);
+// console.log(arr);
+
+//arrow function
+
+// const arowwMulti = (a,b) =>{
+//     console.log(a*b);
+// }
+
+// count voweles
+
+// function countVoweles(str){
+
+//     let count=0;
+//     for(let char of str.toLowerCase()){
+//         if(char==="i" || char==="a" || char==="e" || char==="o" || char==="u"){
+//             count++;
+//         }      
+//     }
+//     return count;
+// }
+// let example= countVoweles("ApnaCollege");
+// console.log(example);
+
+//forEach
+
+// let str=["Nashik","Pune","Mumbai","Jalgaon"];
+
+// str.forEach((val,i,str)=>
+// console.log(val.toUpperCase(),i,str)
+// )
+
+//squre of no by using for eachEach
+
+let arr=[2,3,4,5,6,7,8,9];
+
+arr.forEach((num)=>{
+console.log(num*num);
+});
+
+let calSq = (num)=>{
+    console.log(num*num);
+    };
+
+    arr.forEach(calSq);
+
+//filter
