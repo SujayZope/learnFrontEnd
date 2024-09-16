@@ -7,8 +7,14 @@
 
 // Template Literals
 
-let obj={
-    product: "Laptop",
-    price: 45000
-};
-    console.log(`The product is ${obj.product} and its price is ${obj.price}`);
+// let obj={
+//     product: "Laptop",
+//     price: 45000
+// };
+//     console.log(`The product is ${obj.product} and its price is ${obj.price}`);
+
+let fName=prompt("Enter first name");
+let lName=prompt("Enter last name");
+let fullName=fName+lName;
+let userName= "@"+fullName+fullName.length;
+console.log(userName);
