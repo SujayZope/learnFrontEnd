@@ -79,12 +79,58 @@
 
 //     arr.forEach(calSq);
 
-let arr=[2,3,4,5,6,7,8,9];
-arr.map((val) => {
-    console.log(val)
-});
+// let arr=[2,3,4,5,6,7,8,9];
+// arr.map((val) => {
+//     console.log(val)
+// });
 
-let calSq = (num) => {
-        console.log(num*num);
-     };
-     arr.map(calSq);
+// let calSq = (num) => {
+//         console.log(num*num);
+//      };
+//      arr.map(calSq);
+
+//filter
+
+// let arr=[1,2,3,4,5,6,7,8,9,10];
+
+// let even=arr.filter((val)=>{
+// return val %2==0;
+// });
+
+// console.log(even);
+
+//reduce
+
+// let arr=[1,2,30,4,5,6];
+
+// let output= arr.reduce((result,current)=>{
+//     return result+current;
+// });
+// console.log(output);
+
+// let large= arr.reduce((priv,curr)=>{
+//     return priv > curr ? priv :curr;
+// });
+// console.log(large);
+
+// let marksArr=[76,88,90,95,44,99];
+// let topper=marksArr.filter((val)=>{
+//     return val>90;
+// });
+// console.log(topper);
+
+let n= prompt("Enter number");
+let arr=[];
+for(i=1;i<=n;i++){
+    arr[i-1]=i;
+}
+console.log(arr);
+
+let sum=arr.reduce((priv,curr)=>{
+    return priv+curr;
+});
+console.log(sum);
+let product=arr.reduce((priv,curr)=>{
+    return priv*curr;
+});
+console.log(product);
