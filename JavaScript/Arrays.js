@@ -80,11 +80,11 @@
 //     arr.forEach(calSq);
 
 let arr=[2,3,4,5,6,7,8,9];
-arr.map((val)=>{
+arr.map((val) => {
     console.log(val)
 });
 
-let calSq = (num)=>{
+let calSq = (num) => {
         console.log(num*num);
      };
      arr.map(calSq);
